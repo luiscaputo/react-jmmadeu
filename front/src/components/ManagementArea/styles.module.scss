@@ -1,0 +1,47 @@
+.management {
+  height: 100vh;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .form {
+    padding: 16px;
+    width: 100% span {
+      text-align: justify !important;
+      color: red;
+    }
+    button {
+      color: #d60042;
+      border: none;
+      border-radius: 8px;
+      color: #ffffff;
+    }
+    button:hover {
+      background-color: #640322;
+      color: #ffffff;
+      transition: 2s;
+    }
+    input,
+    select {
+      padding-bottom: 8px;
+      height: 55px;
+      border-radius: 8px;
+      width: 400px;
+    }
+    select:hover {
+      border-color: #d60042;
+      transition: 2s;
+    }
+    input:hover {
+      border-color: #d60042;
+      transition: 2s;
+    }
+  }
+  .buttonCreate {
+    width: 100%;
+    height: 55px;
+    background-color: #d60042;
+  }
+}
